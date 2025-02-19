@@ -210,8 +210,7 @@ footer .cookie-notice a {
 }
 
 .links__final a:active {
-    background-color: chartreuse;
-    color: #00030C;
+    color: chartreuse;
 }
 
 .container__caixa a:active {
