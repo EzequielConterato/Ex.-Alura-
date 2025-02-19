@@ -34,7 +34,7 @@ body {
     margin: 0 0 0 15em;
 }
 
-.container__botao a:hover {
+.container__caixa a:hover {
     background-color: #5da0f3;
     color: #00030C;
 }
