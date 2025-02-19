@@ -199,3 +199,22 @@ footer .cookie-notice {
 footer .cookie-notice a {
     color: #ffcc00; /* Cor do link */
 }
+
+.links__final a:hover {
+    color: var(--botao-azul);
+}
+
+.container__caixa a:hover {
+    background-color:var(--botao-azul-efeito);
+    color: #00030C;
+}
+
+.links__final a:active {
+    background-color: chartreuse;
+    color: #00030C;
+}
+
+.container__caixa a:active {
+    background-color: chartreuse;
+    color: #00030C;
+}
