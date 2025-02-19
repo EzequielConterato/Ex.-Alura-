@@ -1,0 +1,197 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-fundo: #00030C;
+    --fonte-principal: "inter";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+    margin: 3em;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50%;
+    
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__imagin {
+    margin: 1em 0 2em 0;
+} 
+
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 10px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    margin-bottom: 1em;
+}
+.botao__secundario {
+    background-color: transparent;
+    border: solid var(--branco-principal);
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario)
+}
+
+
+
+
+
+
+.secundario {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 13em;
+    gap: 4em;
+    
+}
+
+.secundario__imagin {
+    width: 100%;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    text-align: center;
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao {
+    padding: 1em;
+}
+
+.divisao {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.logo {
+   text-align: center;  
+   margin: 10em 0 1em 0;
+}
+
+.logo__fox {
+    width: 15em;
+    height: 15em;
+}
+
+.links__final {
+    text-align: center;
+    padding: 2em;   
+}
+
+.links__final__ {
+    padding: 1em;
+    color: var(--cinza-secundario);
+}
+
+
+
+
+
+footer {
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Cor do texto */
+    padding: 20px 0; /* Espaçamento interno */
+    font-family: Arial, sans-serif; /* Fonte */
+    text-align: center; /* Alinhamento do texto */
+    border-top: 2px solid #444; /* Borda superior */
+}
+
+/* Container do conteúdo do rodapé */
+.footer-content {
+    max-width: 1200px; /* Largura máxima */
+    margin: 0 auto; /* Centralizar na página */
+    padding: 0 20px; /* Espaçamento interno */
+}
+
+/* Estilos para os parágrafos */
+footer p {
+    margin: 10px 0; /* Espaçamento entre parágrafos */
+    font-size: 14px; /* Tamanho da fonte */
+}
+
+/* Estilos para os links */
+footer a {
+    color: #fff; /* Cor do link */
+    text-decoration: none; /* Remover sublinhado */
+    transition: color 0.3s ease; /* Transição suave de cor */
+}
+
+footer a:hover {
+    color: #ffcc00; /* Cor do link ao passar o mouse */
+}
+
+/* Estilos para a lista de links úteis */
+footer ul {
+    list-style: none; /* Remover marcadores da lista */
+    padding: 0; /* Remover padding padrão */
+    margin: 15px 0; /* Espaçamento externo */
+}
+
+footer ul li {
+    display: inline-block; /* Colocar itens da lista na mesma linha */
+    margin: 0 10px; /* Espaçamento entre itens */
+}
+
+/* Estilos para as redes sociais */
+footer .social-media {
+    margin: 15px 0; /* Espaçamento externo */
+}
+
+footer .social-media a {
+    display: inline-block; /* Colocar links na mesma linha */
+    margin: 0 10px; /* Espaçamento entre links */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Estilos para o texto de cookies */
+footer .cookie-notice {
+    font-size: 12px; /* Tamanho da fonte menor */
+    color: #ccc; /* Cor do texto mais clara */
+}
+
+footer .cookie-notice a {
+    color: #ffcc00; /* Cor do link */
+}
