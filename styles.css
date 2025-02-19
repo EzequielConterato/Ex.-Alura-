@@ -160,23 +160,23 @@ body {
 footer {
     background-color: #333; /* Cor de fundo escura */
     color: #fff; /* Cor do texto */
-    padding: 20px 0; /* Espaçamento interno */
+    padding: 1.25em 0; /* Espaçamento interno */
     font-family: Arial, sans-serif; /* Fonte */
     text-align: center; /* Alinhamento do texto */
-    border-top: 2px solid #444; /* Borda superior */
+    border-top: 0.125em solid #444; /* Borda superior */
 }
 
 /* Container do conteúdo do rodapé */
 .footer-content {
-    max-width: 1200px; /* Largura máxima */
+    max-width: 75em; /* Largura máxima */
     margin: 0 auto; /* Centralizar na página */
-    padding: 0 20px; /* Espaçamento interno */
+    padding: 0 2em; /* Espaçamento interno */
 }
 
 /* Estilos para os parágrafos */
 footer p {
-    margin: 10px 0; /* Espaçamento entre parágrafos */
-    font-size: 14px; /* Tamanho da fonte */
+    margin: 0.625em 0; /* Espaçamento entre parágrafos */
+    font-size: 0.875em; /* Tamanho da fonte */
 }
 
 /* Estilos para os links */
@@ -194,28 +194,28 @@ footer a:hover {
 footer ul {
     list-style: none; /* Remover marcadores da lista */
     padding: 0; /* Remover padding padrão */
-    margin: 15px 0; /* Espaçamento externo */
+    margin: 0,9375em 0; /* Espaçamento externo */
 }
 
 footer ul li {
     display: inline-block; /* Colocar itens da lista na mesma linha */
-    margin: 0 10px; /* Espaçamento entre itens */
+    margin: 0 0.625em; /* Espaçamento entre itens */
 }
 
 /* Estilos para as redes sociais */
 footer .social-media {
-    margin: 15px 0; /* Espaçamento externo */
+    margin: 0,9375em 0; /* Espaçamento externo */
 }
 
 footer .social-media a {
     display: inline-block; /* Colocar links na mesma linha */
-    margin: 0 10px; /* Espaçamento entre links */
-    font-size: 16px; /* Tamanho da fonte */
+    margin: 0 0.625em; /* Espaçamento entre links */
+    font-size: 1em; /* Tamanho da fonte */
 }
 
 /* Estilos para o texto de cookies */
 footer .cookie-notice {
-    font-size: 12px; /* Tamanho da fonte menor */
+    font-size: 0.75em; /* Tamanho da fonte menor */
     color: #ccc; /* Cor do texto mais clara */
 }
 
