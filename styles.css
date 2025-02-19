@@ -39,6 +39,14 @@ body {
     color: #00030C;
 }
 
+.container__descricao a:hover {
+    background-color: #5da0f3;
+}
+
+.container__descricao a:active {
+    background-color: #2a097b;
+    color: #00030C;
+}
 
 .container__caixa a:active {
     background-color: #2a097b;
