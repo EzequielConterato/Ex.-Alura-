@@ -139,16 +139,6 @@ body {
     color: #00030C;
 }
 
-.container__botao a:hover {
-    background-color: chartreuse;
-    color: #00030C;
-}
-
-.container__botao a:active {
-    background-color: chartreuse;
-    color: #00030C;
-}
-
 footer {
     background-color: #333; /* Cor de fundo escura */
     color: #fff; /* Cor do texto */
