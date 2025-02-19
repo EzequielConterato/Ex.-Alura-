@@ -39,6 +39,12 @@ body {
     color: #00030C;
 }
 
+
+.container__caixa a:active {
+    background-color: #2a097b;
+    color: #00030C;
+}
+
 .container {
     height: 100vh;
     display: grid;
@@ -140,7 +146,7 @@ body {
 }
 
 .links__final a:active {
-    background-color: chartreuse;
+    background-color: #2a097b;
     color: #00030C;
 }
 
