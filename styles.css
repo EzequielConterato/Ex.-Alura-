@@ -30,6 +30,10 @@ body {
     margin: 0.9em;
 }
 
+.container__caixa {
+    margin: 0 0 0 5em;
+}
+
 .container {
     height: 100vh;
     display: grid;
